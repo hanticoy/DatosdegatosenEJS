@@ -1,0 +1,47 @@
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px, auto;
+    text-align: center;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 30px;
+    width: 500px;
+
+}
+.detalle {
+    width: 600px;
+    height: 300px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+.titulo {
+    font-size: xx-large;
+    color: chocolate;
+}
+#cats{
+    cursor: pointer;
+}
+
+header {
+    background-color: darksalmon;
+    height: 50px;
+}

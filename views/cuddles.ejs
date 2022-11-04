@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Gatos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1> Detalle de nuestro Gatito!!</h1>
+            <a href="/gatos">Volver!!!</a>
+        </header>
+        <article>
+            <section>
+                <img id="catName" src="" alt="">
+            </section>
+        </article>
+        
+        <% for (var x in cats) { %>
+            <h3>Favorite Food: <%= cats[x].favoriteFood %></h3>
+            <h4>Age: <%= cats[x].Age %></h4>
+            <h5>Sleeping Spots: <%= cats[x].sleeping %></h5>
+            <hr>
+        <% } %>
+    </main>
+    <script src="js/script2.js"></script>
+</body>
+
+</html>
